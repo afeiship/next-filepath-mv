@@ -1,0 +1,4 @@
+@import "../dist/webkit-sassui-img-icon.scss";
+.test-webkit-sassui-img-icon{
+  @include webkit-sassui-img-icon('./suiBianTui_b5271ec.png',24px);
+}

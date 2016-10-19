@@ -1,0 +1,32 @@
+{
+  "name": "webkit-sassui-img-icon",
+  "description": "Webkit sass ui module for image icon.",
+  "main": [
+    "dist/webkit-sassui-img-icon.css",
+    "dist/webkit-sassui-img-icon.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "img-icon"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "webkit-sass-mixins": "afeiship/webkit-sass-mixins"
+  }
+}

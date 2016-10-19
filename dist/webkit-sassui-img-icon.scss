@@ -1,0 +1,10 @@
+/*webkit-sassui-img-icon Start*/
+@import "../bower_components/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
+@mixin webkit-sassui-img-icon($inImg,$inWidth,$inHeight:''){
+  //Your mixin code goes here.
+  display: inline-block;
+  @include size($inWidth,$inHeight);
+  background: url($inImg) no-repeat;
+  background-size: cover;
+}
+/*webkit-sassui-img-icon End*/
