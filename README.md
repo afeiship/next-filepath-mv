@@ -15,7 +15,6 @@ npm install -S @jswork/next-filepath-mv
 ```js
 import '@jswork/next-filepath-mv';
 
-//DOCS here!
 nx.filepathMv('/var/lib/nginx/tmp/test.txt',(obj)=>{
   obj.prefix = 'pre_';
   obj.suffix = '_suf';
